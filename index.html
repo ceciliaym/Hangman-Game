@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
 </head>
 <body>
- 
-    <h1>Hang Man</h1>
-    
+        <h1>Are you a physic?</h1>
+    <div class="container">
+        <p>Guess what the computer is thinking!</p>
+        
+        <input type="text" size="40" onkeypress="myFunction(event)">
+        <p id="wins"></p>
+        <p id="losses"></p>
+        <p id=guesses></p>
+
+</div>
+
+
+
 </body>
 </html>
